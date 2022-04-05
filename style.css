@@ -1,0 +1,17 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+footer {
+  margin-top: 93px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.footer-user-name {
+  font-size: inherit;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+}
