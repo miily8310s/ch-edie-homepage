@@ -31,21 +31,63 @@
   margin-right: 60px;
 }
 
-.edie__unhappy {
+.edie__hero {
   margin: 96px 0 42px 225px;
+}
+.edie__hero.bottom {
+  margin-bottom: 200px;
 }
 
 .edie__unhappy__message {
   color: #2d9cdb;
 }
 
-.edie__unhappy__tohappy {
+.edie__message {
   font-size: 48px;
   font-weight: 500;
+  width: fit-content;
+}
+
+.edie__help__message {
+  margin: 42px 0;
+  color: #4f4f4f;
+  width: 350px;
 }
 
 .edie__hero__image {
   border-radius: 18px;
+}
+
+.edie__submit {
+  position: relative;
+}
+
+.edie__submit__message {
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 9px;
+  font-weight: 500;
+}
+
+.edie__submit__input {
+  background-color: #f2f2f2;
+  padding: 15px 0 15px 21px;
+  border: none;
+  border-radius: 12px;
+  width: 350px;
+  /* color: #bdbdbd; */
+}
+
+.edie__submit__button {
+  border: none;
+  padding: 11px 28px 11px 27px;
+  background: #2d9cdb;
+  border-radius: 12px;
+  color: #ffffff;
+  font-weight: 500;
+  position: absolute;
+  left: 255px;
+  bottom: 4px;
 }
 
 footer {
