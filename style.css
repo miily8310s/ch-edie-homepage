@@ -33,7 +33,7 @@
 }
 
 .edie__hero {
-  margin: 96px 0 42px 225px;
+  margin: 42px 0 96px 225px;
 }
 .edie__hero.bottom {
   margin-bottom: 200px;
@@ -76,7 +76,6 @@
   border: none;
   border-radius: 12px;
   width: 350px;
-  /* color: #bdbdbd; */
 }
 
 .edie__submit__button {
@@ -94,7 +93,6 @@
 .edie__header__message {
   font-size: 36px;
   font-weight: 500;
-  /* margin-left: 132px; */
   width: 346px;
 }
 
@@ -102,18 +100,49 @@
   margin-bottom: 42px;
 }
 
-.edie__services {
+.edie__phases {
   margin-left: 132px;
 }
 
 .edie__services__cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 350px);
+  gap: 10px;
+}
+
+.edie__services__card {
+  padding: 46px 34px;
+}
+
+.edie__services__card.shadow {
+  box-shadow: 0px 10px 30px rgba(51, 51, 51, 0.1);
+  border-radius: 24px;
+}
+
+.service__icon {
+  border-radius: 16px;
+  width: fit-content;
+  color: #ffffff;
+  padding: 21px 21px 15px 20px;
+}
+.service__icon.ui {
+  background: #2d9cdb;
+}
+.service__icon.frontend {
+  background: #27ae60;
+}
+.service__icon.backend {
+  background: #eb5757;
+}
+.service__icon > .material-icons {
+  color: #ffffff;
+  font-size: 27px;
 }
 
 .service__job {
   font-size: 24px;
   font-weight: bold;
+  margin-top: 35px;
 }
 
 .service__detail {
@@ -129,6 +158,44 @@
   padding: 9px 12px 9px 13px;
   width: fit-content;
   border-radius: 12px;
+}
+
+.service__start__button.primary {
+  background: #2d9cdb;
+  color: #ffffff;
+}
+
+.edie__comment {
+  margin-top: 196px;
+  width: 937px;
+  margin-bottom: 36px;
+}
+
+.edie__comment__message {
+  font-size: 36px;
+  margin-bottom: 36px;
+}
+
+.edie__comment__person {
+  display: flex;
+  gap: 32px;
+}
+
+.edie__comment__person > img {
+  width: 75px;
+  height: 75px;
+  border-radius: 12px;
+}
+
+.edie__person__name {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.edie__person__job {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #828282;
 }
 
 footer {
