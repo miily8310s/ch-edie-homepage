@@ -1,6 +1,7 @@
 * {
   font-family: "Poppins", sans-serif;
   font-size: 18px;
+  color: #333333;
 }
 
 .edie {
@@ -88,6 +89,46 @@
   position: absolute;
   left: 255px;
   bottom: 4px;
+}
+
+.edie__header__message {
+  font-size: 36px;
+  font-weight: 500;
+  /* margin-left: 132px; */
+  width: 346px;
+}
+
+.edie__header__message.services {
+  margin-bottom: 42px;
+}
+
+.edie__services {
+  margin-left: 132px;
+}
+
+.edie__services__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.service__job {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.service__detail {
+  font-size: 16px;
+  color: #4f4f4f;
+  margin: 24px 0 30px;
+}
+
+.service__start__button {
+  font-size: 16px;
+  color: #828282;
+  background-color: #e0e0e0;
+  padding: 9px 12px 9px 13px;
+  width: fit-content;
+  border-radius: 12px;
 }
 
 footer {
