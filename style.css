@@ -6,7 +6,7 @@
 
 .edie {
   margin: 0 auto;
-  padding: 42px 56px 0 52px;
+  padding: 42px 56px 200px 52px;
 }
 
 .edie__header {
@@ -198,15 +198,38 @@
   color: #828282;
 }
 
+.edie__footer {
+  background-color: #100e1d;
+  padding: 46px 0 24px 168px;
+}
+.edie__footer__buttons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.edie__menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.edie__menu__button {
+  color: #ffffff;
+}
+
 footer {
-  margin-top: 93px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 118px;
   text-align: center;
-  color: #a9a9a9;
+  color: #ffffff;
 }
 
 .footer-user-name {
   font-size: inherit;
-  font-weight: 600;
+  color: inherit;
+  font-weight: 700;
+  border-bottom: 1px solid #ffffff;
 }
 
 @media screen and (max-width: 767px) {
