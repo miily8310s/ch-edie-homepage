@@ -70,6 +70,10 @@
   font-weight: 500;
 }
 
+.edie__submit__message.footer {
+  color: #ffffff;
+}
+
 .edie__submit__input {
   background-color: #f2f2f2;
   padding: 15px 0 15px 21px;
@@ -200,8 +204,14 @@
 
 .edie__footer {
   background-color: #100e1d;
-  padding: 46px 0 24px 168px;
+  /* padding: 46px 0 24px 168px; */
+  padding: 46px 0 24px;
 }
+
+.edie__footer__menu {
+  padding-left: 168px;
+}
+
 .edie__footer__buttons {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -214,6 +224,14 @@
 }
 
 .edie__menu__button {
+  color: #ffffff;
+}
+
+.edie__sns > .edie__logo {
+  color: #ffffff;
+}
+
+.edie__sns__icons > i {
   color: #ffffff;
 }
 
