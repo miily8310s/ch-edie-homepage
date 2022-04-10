@@ -178,6 +178,7 @@
   display: flex;
   gap: 180px;
   margin-top: 220px;
+  align-items: center;
 }
 
 .edie__team__red {
@@ -208,6 +209,28 @@
   width: 75px;
   height: 75px;
   border-radius: 12px;
+}
+
+.edie__team__persons {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.edie__team__persons > img {
+  border-radius: 24px;
+}
+.edie__team__persons > img:first-child {
+  grid-column: 2 / 3;
+  grid-row: 1;
+}
+.edie__team__persons > img:nth-child(2) {
+  grid-column: 2 / 3;
+  grid-row: 2;
+}
+.edie__team__persons > img:nth-child(3) {
+  grid-row: 2 / 4;
 }
 
 .edie__person__name {
