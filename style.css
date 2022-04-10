@@ -18,6 +18,11 @@
 .edie__logo {
   font-size: 36px;
   font-weight: 800;
+  font-family: "Heebo", sans-serif;
+}
+
+.edie__nav__mobile {
+  display: none;
 }
 
 .edie__nav__buttons {
@@ -251,4 +256,44 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+  .edie {
+    padding: 13px 17px 100px 10px;
+  }
+  .edie__hero {
+    margin: 48px 0 15px 40px;
+  }
+  .edie__nav__buttons {
+    display: none;
+  }
+  .edie__nav__mobile {
+    display: block;
+  }
+  .edie__help__message {
+    width: 405px;
+  }
+  .edie__submit__input {
+    width: 90%;
+  }
+  .edie__submit__button {
+    left: 425px;
+  }
+  .edie__phases {
+    margin-left: 39px;
+  }
+  .edie__services__cards {
+    grid-template-columns: repeat(1, 350px);
+  }
+  .edie__comment {
+    margin: 100px 0;
+  }
+  .edie__comment__message {
+    font-size: 24px;
+  }
+  .edie__footer__menu {
+    padding-left: 41px;
+  }
+  .edie__footer__buttons {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 65px;
+  }
 }
