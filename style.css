@@ -174,6 +174,24 @@
   color: #ffffff;
 }
 
+.edie__businesses {
+  margin-right: 110px;
+}
+
+.edie__business__see {
+  font-size: 24px;
+  font-weight: 500;
+  color: #2d9cdb;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 17px;
+}
+
+.edie__business__see > span {
+  color: inherit;
+}
+
 .edie__team {
   display: flex;
   gap: 180px;
