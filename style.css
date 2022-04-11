@@ -108,9 +108,16 @@
 .edie__header__message.services {
   margin-bottom: 42px;
 }
+.edie__header__message.business {
+  width: 448px;
+}
 
 .edie__phases {
   margin-left: 132px;
+}
+
+.edie__services {
+  margin-bottom: 194px;
 }
 
 .edie__services__cards {
@@ -176,6 +183,39 @@
 
 .edie__businesses {
   margin-right: 110px;
+}
+
+.edie__business__color {
+  position: relative;
+  border-radius: 12px;
+  width: 545px;
+  height: 545px;
+}
+
+.edie__business__cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.edie__business__card:nth-child(2n + 1) {
+  margin-top: 180px;
+}
+
+.edie__business__color > img {
+  border-radius: 12px;
+}
+
+.edie__business__category {
+  margin-top: 20px;
+  color: #828282;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.edie__business__name {
+  font-size: 24px;
+  font-weight: 500;
 }
 
 .edie__business__see {
@@ -338,6 +378,17 @@ footer {
   .edie__services__cards {
     grid-template-columns: repeat(1, 350px);
   }
+  .edie__business__cards {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .edie__business__color {
+    width: 400px;
+    height: 400px;
+  }
+  .edie__business__see {
+    margin-top: 36px;
+    justify-content: start;
+  }
   .edie__team {
     flex-direction: column;
   }
@@ -346,6 +397,7 @@ footer {
   }
   .edie__comment__message {
     font-size: 24px;
+    width: 351px;
   }
   .edie__footer__menu {
     padding-left: 41px;
