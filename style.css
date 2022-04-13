@@ -270,25 +270,23 @@
 }
 
 .edie__team__persons {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.edie__team__persons__second {
+  display: flex;
+  flex-direction: column;
   gap: 24px;
 }
 
 .edie__team__persons > img {
   border-radius: 24px;
 }
-.edie__team__persons > img:first-child {
-  grid-column: 2 / 3;
-  grid-row: 1;
-}
-.edie__team__persons > img:nth-child(2) {
-  grid-column: 2 / 3;
-  grid-row: 2;
-}
-.edie__team__persons > img:nth-child(3) {
-  grid-row: 2 / 4;
+
+.edie__team__persons__second > img {
+  border-radius: 24px;
 }
 
 .edie__person__name {
